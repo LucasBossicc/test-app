@@ -28,3 +28,5 @@ app.get('/test-bd', async (req, res) => {
 
 
 app.listen(PUERTO)
+
+//siempre que se haga un cambio en el codigo se reiniciara el servidor, con el comando "npm run dev" en la terminal.
